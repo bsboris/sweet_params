@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
-  spec.test_files    = spec.files.grep(%r{^spec/})
+  spec.test_files    = spec.files.grep(%r{^test/})
   spec.require_paths = ['lib']
 
   spec.add_dependency 'activesupport', '>= 4.0'
