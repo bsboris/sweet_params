@@ -1,5 +1,7 @@
 # Sweet Params
 
+[![Code Climate](https://codeclimate.com/github/bsboris/sweet_params/badges/gpa.svg)](https://codeclimate.com/github/bsboris/sweet_params)
+
 Syntax sugar for Rails Strong Parameters, making them sweet and tasty to work with.
 
 This plugin protects you from bad practice of using #to_sym on user provided params when comparing with known value (e.g. when using params for filters or scopes):
