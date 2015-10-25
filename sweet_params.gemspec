@@ -15,8 +15,8 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'https://github.com/bsboris/sweet_params'
   spec.license       = 'MIT'
 
-  spec.files         = `git ls-files`.split($/)
-  spec.test_files    = spec.files.grep(%r{^test/})
+  spec.files         = Dir['LICENSE.txt', 'README.md', 'lib/**/*']
+  spec.test_files    = Dir['test/**/*.rb']
   spec.require_paths = ['lib']
 
   spec.add_dependency 'actionpack', '>= 4.0'
